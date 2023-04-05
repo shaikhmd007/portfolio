@@ -37,9 +37,18 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="#resume-section"> My CV resume </a>
                         </li>
-
                     </ul>
+                    {/* 🌐 */}
+                    <div class="Switch">
+                        <strong class="name">Switch
+                            to
+                            <a href="https://shaikhmd007.github.io/">
+                                <i class="bi bi-sun-fill"></i>
+                            </a>
+                        </strong>
+                    </div>
                 </div>
+
             </div>
         </nav>
     )
